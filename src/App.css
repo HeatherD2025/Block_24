@@ -2,10 +2,25 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  -webkit-text-stroke: 20px, black;
   text-align: center;
 }
 
-.logo {
+p {
+  background-color: black;
+  margin: 10px;
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  justify-self: anchor-center;
+}
+
+.hover {
+  cursor: pointer;
+}
+/* .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
@@ -39,4 +54,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */ 
