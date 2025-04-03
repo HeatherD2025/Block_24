@@ -2,56 +2,26 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
+  justify-self: anchor-center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
-  -webkit-text-stroke: 20px, black;
   text-align: center;
 }
 
-p {
-  background-color: black;
-  margin: 10px;
-  width: 30%;
+.boxForPuppyNames {
+  background-color: rgb(151, 198, 204);
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  padding-top: 30px;
+  width: 40%;
+  height: 872px;
   justify-self: anchor-center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
 }
 
-.hover {
-  cursor: pointer;
+.background {
+  background-image: url("https://media.istockphoto.com/id/1154954591/photo/creative-collage-of-different-breeds-of-dogs-on-colorful-background.jpg?s=612x612&w=0&k=20&c=-_iwy8ZEGH1Zt7AfkanMJFJDuj11tw2bTRqkJgjKhfo=)", background-repeat:
+  width: 90%,
+  height: "972px",
 }
-/* .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-} */ 
